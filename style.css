@@ -1,0 +1,192 @@
+@font-face {
+    font-family: Cinzel Decorative regular;
+    src: url(fonts/cinzeldecorative-regular.ttf);
+}
+
+@font-face {
+    font-family: Cinzel Decorative bold;
+    src: url(fonts/cinzeldecorative-bold.ttf);
+}
+
+@font-face {
+    font-family: Forum regular;
+    src: url(fonts/forum-regular.ttf);
+}
+
+@font-face {
+    font-family: Vivaldi;
+    src: url(fonts/vivaldi.ttf);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    font-family: Forum;
+    font-size: 18.5px;
+}
+
+main {
+    height: 650vh;
+}
+
+header {
+    height: 100vh;
+}
+
+#welcome {
+    width: 100%;
+    height: 100%;
+}
+
+.shadow:hover {
+    border: 1.25px dashed lightgray;
+}
+
+/* MENU*/
+
+nav {
+    text-align: right;
+    border-top: 1px double grey;
+    border-bottom: 1px double grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav a {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right: 75px;
+    text-shadow: 2px 2px lightgray;
+    transition: color 0.35s;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+#accueil:hover, #spectacle:hover, #dates:hover, #contact:hover {
+    color: #e30613;
+    transition: color 0.35s;
+}
+
+/* WAOUH */
+
+#a1 {
+    height: auto;
+    margin-bottom: 50vh;
+}
+
+h1 {
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+#logotypo {
+    width: 100%;
+    text-align: center;
+}
+
+#teaser {
+    text-align: center;
+    font-size: 3em;
+    padding-top: 20px;
+}
+
+.images {
+    width: 100%;
+}
+
+.t {
+    text-align: center;
+    font-size: 2.65em;
+}
+
+#t2, #t5, #t6  {
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+}
+
+#t3 {
+    margin-top: 15vh;
+    margin-bottom: 7vh;
+}
+
+#t4 {
+    margin-bottom: 7vh;
+}
+
+#JB {
+    height: 40vh;
+}
+
+#endimione {
+    width: 60vh;
+    position: relative;
+    top: -11vh;
+}
+
+#et {
+    margin-right: 15vh;
+    margin-left: 45vh;
+    display: inline-block;
+    position: relative;
+    top: -18vh;
+}
+
+h2 {
+    text-align: center;
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#lienspectacle {
+    color: black;
+    font-family: Cinzel Decorative Bold;
+    font-size: 2.5em;
+}
+
+#lienspectacle:hover {
+    color: #e30613;
+}
+
+/* PARTENAIRES */
+
+#logopart {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logos {
+    width: 5vw;
+}
+
+footer {
+    width: 100%;
+    top: 900vh;
+    height: 15vh;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}

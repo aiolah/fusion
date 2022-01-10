@@ -1,0 +1,112 @@
+@font-face {
+    font-family: Cinzel Decorative regular;
+    src: url(fonts/cinzeldecorative-regular.ttf);
+}
+
+@font-face {
+    font-family: Cinzel Decorative bold;
+    src: url(fonts/cinzeldecorative-bold.ttf);
+}
+
+@font-face {
+    font-family: Forum regular;
+    src: url(fonts/forum-regular.ttf);
+}
+
+@font-face {
+    font-family: Vivaldi;
+    src: url(fonts/vivaldi.ttf);
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+body {
+    margin: 0;
+    font-family: Forum;
+    font-size: 18.5px;
+}
+
+main {
+    height: 650vh;
+}
+
+/* MENU*/
+
+nav {
+    text-align: right;
+    border-top: 1px double grey;
+    border-bottom: 1px double grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: color 0.35s;
+}
+
+nav a {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    margin-right: 75px;
+    text-shadow: 2px 2px lightgray;
+}
+
+#logo {
+    width: 125px;
+    height: 125px;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 35px;
+}
+
+#accueil:hover, #spectacle:hover, #dates:hover, #contact:hover {
+    color: #e30613;
+    transition: color 0.35s;
+}
+
+/* Téléchargement */
+
+span {
+    background-color: white;
+    position: absolute;
+    padding: 0.2em;
+}
+
+.download {
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 100px;
+    display: flex;
+    column-gap: 5px;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+p>a {
+    color: royalblue;
+}
+
+body:visited a {
+    color: royalblue;
+}
+
+article {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+article div {
+    display: flex;
+    justify-content: center;
+}
