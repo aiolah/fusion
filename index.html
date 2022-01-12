@@ -12,6 +12,19 @@
 
     <body>
 
+        <div id="conteneur">
+            <div id="popup">
+                <div class="close">
+                    <img src="images/close.svg" id="fermer">
+                </div>
+                <p>⚠ATTENTION⚠<br>
+                Ce site n'est pas le site officiel du spectacle Fusion.<br>
+                Il fut créé lors de la Castres Web Week en 2019 par Aïolah Vaïti.<br>
+                Bonne visite !
+                </p>
+            </div>
+        </div>
+
         <header>
             <img id="welcome" src="images/JLC_3810(3).jpg" alt="Final Fusion">
         </header>
@@ -63,4 +76,19 @@
             <div>Réalisé par Aïolah Vaïti</div>
         </footer>
     </body>
+    <script>
+        // Écouteur d'évènement au chargement de la page, pour afficher la pop-up
+        document.addEventListener("load", affichePopup);
+        function affichePopup(event)
+        {
+            document.getElementById("conteneur").style.display="block";
+        }
+
+        // Fermer la pop-up
+        document.getElementById("fermer").addEventListener("click", fermePopup);
+        function fermePopup(event)
+        {
+            document.getElementById("conteneur").style.display="none";
+        }
+    </script>
 </html>
